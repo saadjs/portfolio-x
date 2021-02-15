@@ -30,7 +30,7 @@ export const Links = styled.div`
   align-items: center;
 
   a {
-    margin: 0 0.5rem;
+    margin: 0 1rem;
 
     img {
       margin: 0;
