@@ -17,8 +17,13 @@ export const Skills = () => {
         <Details theme={theme}>
           <h1>More about me</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry’s standard dummy.
+            I am a tech enthusiast. I love to explore new things and develop interactive websites.
+            <br />
+            💪  I am highly motivated, detail-oriented, self-driven engineer who is always trying to perfect and improve products.
+            <br />
+            🏔  I love nature, and I am inspired by scenic beauty. In my spare time, I enjoy travelling and long drives  🚘
+            <br />
+            ✉️  Shoot me an email at saad@saadshaikh.dev to connect over a virtual coffee  ☕️
           </p>
           <Button as={AnchorLink} href="#contact">
             Hire me
