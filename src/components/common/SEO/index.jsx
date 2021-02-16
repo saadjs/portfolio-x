@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Thumbnail from "assets/thumbnail/thumbnail.png";
+import Thumbnail from "../../../assets/thumbnail/thumbnail.png";
 import {
 	url,
 	defaultDescription,
@@ -16,8 +16,7 @@ import {
 
 export const SEO = ({
 	title = defaultTitle,
-	description = defaultDescription,
-	location = "",
+	description = defaultDescription
 }) => {
 	const structuredDataOrganization = `{ 
 		"@context": "http://schema.org",
@@ -55,9 +54,10 @@ export const SEO = ({
 			<meta name="description" content={description} />
 			<meta name="image" content={Thumbnail} />
 			<meta property="og:type" content="website" />
+			<meta property="og:url" content={Thumbnail} />
+			<meta property="og:image" content={Thumbnail} />
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
-			<meta property="og:image" content={Thumbnail} />
 
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:creator" content={socialLinks.twitter} />
