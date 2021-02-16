@@ -16,7 +16,7 @@ import {
 
 export const SEO = ({
 	title = defaultTitle,
-	description = defaultDescription
+	description = defaultDescription,
 }) => {
 	const structuredDataOrganization = `{ 
 		"@context": "http://schema.org",
