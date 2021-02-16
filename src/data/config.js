@@ -2,19 +2,17 @@ module.exports = {
   defaultTitle: 'Saad Shaikh',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
   author: 'Saad Shaikh',
-  url: 'https://saadshaikh.dev',
+  url: 'https://saadshaikh.vercel.app',
   legalName: 'Saad Shaikh',
-  defaultDescription: 'I’m Saad and I’m a Backend & Devops engineer!',
+  defaultDescription: 'I’m Saad and I’m a software engineer!',
   socialLinks: {
     twitter: 'https://twitter.com/notThatSaad',
     github: 'https://github.com/saadjs',
     linkedin: 'https://linkedin.com/in/saadshaikh18'
   },
-  // googleAnalyticsID: '',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
-    facebook: '',
     twitter: '@notThatSaad',
   },
   address: {
