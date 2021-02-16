@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { ThemeContext } from "providers/ThemeProvider";
 import { Container, Button } from "components/common";
-import dev from "assets/illustrations/skills.svg";
+import profileDetail from "assets/illustrations/profile-detail.svg";
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from "./styles";
 
 export const Skills = () => {
@@ -13,7 +13,7 @@ export const Skills = () => {
 			<SkillsWrapper as={Container}>
 				<Thumbnail>
 					<img
-						src={dev}
+						src={profileDetail}
 						alt="I’m Saad and I’m a software  engineer!"
 					/>
 				</Thumbnail>

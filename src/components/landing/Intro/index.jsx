@@ -3,7 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
 import { Header } from 'components/theme';
 import { Container, Button } from 'components/common';
-import dev from 'assets/illustrations/dev.svg';
+import codeThinking from 'assets/illustrations/code-thinking.svg';
 import { Wrapper, IntroWrapper, Details, Thumbnail } from './styles';
 
 export const Intro = () => {
@@ -21,7 +21,7 @@ export const Intro = () => {
           </Button>
         </Details>
         <Thumbnail>
-          <img src={dev} alt="I’m Saad and I’m a software engineer!" />
+          <img src={codeThinking} alt="I’m Saad and I’m a software engineer!" />
         </Thumbnail>
       </IntroWrapper>
     </Wrapper>
