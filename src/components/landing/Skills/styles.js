@@ -49,6 +49,10 @@ export const Details = styled.div`
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
     }
   }
+
+  .email-me {
+    color: #6C63FF;
+  }
 `;
 
 export const Thumbnail = styled.div`
