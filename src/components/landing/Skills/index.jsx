@@ -31,7 +31,7 @@ export const Skills = () => {
 						my spare time, I enjoy travelling and long drives 🚘
 						<br />
 						✉️ Shoot me an email at{" "}
-						<a href="mailto:saad@saadshaikh.dev">
+						<a href="mailto:saad@saadshaikh.dev" className='email-me'>
 							saad@saadshaikh.dev
 						</a>{" "}
 						to connect over a virtual coffee ☕️
