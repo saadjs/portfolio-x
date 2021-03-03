@@ -10,6 +10,7 @@ module.exports = {
     github: 'https://github.com/saadjs',
     linkedin: 'https://linkedin.com/in/saadshaikh18'
   },
+  googleAnalyticsID: 'G-ZEDEYVP47Z',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {
