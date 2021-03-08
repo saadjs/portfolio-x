@@ -51,6 +51,7 @@ export const SEO = ({
 
 	return (
 		<Helmet>
+			<meta name="author" content={legalName}></meta>
 			<meta name="description" content={description} />
 			<meta name="image" content={Thumbnail} />
 			<meta property="og:type" content="website" />
