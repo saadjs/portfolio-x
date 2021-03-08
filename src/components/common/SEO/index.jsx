@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Thumbnail from "../../../assets/thumbnail/thumbnail.png";
+import Thumbnail from "assets/thumbnail/thumbnail.png";
 import {
 	url,
 	defaultDescription,
@@ -57,7 +57,7 @@ export const SEO = ({
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
 			<meta property="og:image" content={Thumbnail} />
-			<meta property="og:url" content='http://saadshaikh.vercel.app/' />
+			<meta property="og:url" content="http://saadshaikh.vercel.app/" />
 
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:creator" content={socialLinks.twitter} />
