@@ -54,10 +54,10 @@ export const SEO = ({
 			<meta name="description" content={description} />
 			<meta name="image" content={Thumbnail} />
 			<meta property="og:type" content="website" />
-			<meta property="og:url" content={Thumbnail} />
-			<meta property="og:image" content={Thumbnail} />
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
+			<meta property="og:image" content={Thumbnail} />
+			<meta property="og:url" content='http://saadshaikh.vercel.app/' />
 
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:creator" content={socialLinks.twitter} />
